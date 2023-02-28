@@ -10,4 +10,4 @@ FROM nginx:alpine AS prod
 
 COPY --from=build /app/build /usr/share/nginx/html
 
-CMD ["sh", "./entrypoint.sh"]
+CMD ["sh", "/usr/share/nginx/html/entrypoint.sh"]
