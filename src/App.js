@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Mon url d'API: {process.env.API_URL}
+          Mon url d'API: {window.env.API_URL}
         </p>
         <a
           className="App-link"
